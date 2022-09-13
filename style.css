@@ -23,15 +23,6 @@ body{
         "content photo"
         "footer photo";
 }
-
-.header-nav{
-    display: flex;
-    flex-direction: row;
-}
-.page-nav{
-    display: flex;
-    flex-direction: row;
-}
 button{
     border:none;
     font-size: inherit;
@@ -40,6 +31,24 @@ button{
 a{
     text-decoration: none;
 }
+/* TODO */
+.header{
+    /* grid-area: "header"; */  
+}
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.page-nav{
+    display: flex;
+    flex-direction: row;
+}
+.login-register{
+    
+}
+
 .dropdown-features-content{
     display: none;
 }
