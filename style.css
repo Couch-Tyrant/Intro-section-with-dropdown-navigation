@@ -16,7 +16,7 @@
 body{
     font-family: 'Epilogue', sans-serif;
     font-size: 18px;
-
+    background-color: var(--almost-white);
     display: grid;
     grid-area: 
         "header header"
@@ -25,28 +25,63 @@ body{
 }
 button{
     border:none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: inherit;
     font-family: inherit;
+    cursor: pointer;
+    background-color: var(--almost-white);
+    font-weight: inherit;
+    color: inherit;
 }
 a{
     text-decoration: none;
 }
-/* TODO */
-.header{
-    /* grid-area: "header"; */  
+header{
+    margin-top: 1em;
+    margin-left: 1em; 
+    margin-right: 1em;
+    /* font-weight: 700; */
 }
 .header-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* align-items: baseline; */
+    align-items: center;
+    font-size: 0.7em;
+}
 
+.logo{
+    padding-right: 1em;
+}
+.logo img{
+    display: block;
 }
 .page-nav{
     display: flex;
     flex-direction: row;
+    /* width: 35%; */
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3em;
+}
+.page-nav > *{
+    color: var(--medium-gray);
+}
+.page-nav > *:hover{
+    color: var(--almost-black);
 }
 .login-register{
-    
+    display: flex;
+    column-gap: 3em;
+}
+.register{
+    padding: 1em 2em;
+    border-color: var(--almost-black);
+    border-style: solid;
+    border-radius: 1em;
 }
 
 .dropdown-features-content{

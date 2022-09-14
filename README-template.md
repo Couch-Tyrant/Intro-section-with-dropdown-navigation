@@ -93,6 +93,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [Dropdown menue using CSS](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp) - Used this for making dropdown menu.
+- [Applying CSS styles to all elements inside a DIV](https://stackoverflow.com/questions/15901522/applying-css-styles-to-all-elements-inside-a-div) - To apply all the styles to the elemenrs inside the div.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
