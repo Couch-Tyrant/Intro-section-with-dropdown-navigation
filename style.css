@@ -18,10 +18,11 @@ body{
     font-size: 18px;
     background-color: var(--almost-white);
     display: grid;
-    grid-area: 
+    grid-template-areas: 
         "header header"
         "content photo"
         "footer photo";
+    height: 100vh;
 }
 button{
     border:none;
@@ -43,6 +44,7 @@ header{
     margin-left: 1em; 
     margin-right: 1em;
     /* font-weight: 700; */
+    grid-area: header;
 }
 .header-nav{
     display: flex;
@@ -76,12 +78,30 @@ header{
 .login-register{
     display: flex;
     column-gap: 3em;
+    color: var(--medium-gray);
+}
+.login-register>*:hover{
+    color: var(--almost-black);
 }
 .register{
     padding: 1em 2em;
-    border-color: var(--almost-black);
+    border-color: var(--medium-gray);
     border-style: solid;
     border-radius: 1em;
+}
+.register:hover{
+    border-color: var(--almost-black);
+}
+main{
+    grid-area: content;
+}
+.main-img{
+    grid-area: photo;
+    max-width: 100%;
+    height: auto;
+}
+footer{
+    grid-area: footer;
 }
 
 .dropdown-features-content{
