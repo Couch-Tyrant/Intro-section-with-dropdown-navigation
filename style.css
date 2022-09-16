@@ -23,6 +23,7 @@ body{
         "content photo"
         "footer photo";
     height: 100vh;
+    grid-template-rows: auto auto auto;
 }
 button{
     border:none;
@@ -94,14 +95,34 @@ header{
 }
 main{
     grid-area: content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5em;
+}
+.title{
+    font-size: 5em;
+    font-weight: 700;
 }
 .main-img{
     grid-area: photo;
+    /* max-width: 100%;
+    height: auto; */
+    margin-right: 5em;
+}
+/* remove */
+.main-img img{
     max-width: 100%;
     height: auto;
 }
+/*  */
 footer{
     grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: end;
+    justify-content: space-between;
 }
 
 .dropdown-features-content{
