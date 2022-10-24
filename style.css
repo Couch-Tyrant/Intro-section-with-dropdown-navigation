@@ -123,6 +123,8 @@ footer{
     /* flex-wrap: wrap; */
     align-items: end;
     justify-content: space-between;
+    margin-left: 5em;
+    margin-right: 5em;
 }
 
 .dropdown-features-content{
