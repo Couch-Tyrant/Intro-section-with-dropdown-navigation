@@ -39,7 +39,13 @@ button{
 }
 a{
     text-decoration: none;
+    color: var(--medium-gray);
 }
+
+a:hover{
+    color: var(--almost-black);
+}
+
 header{
     margin-top: 1em;
     margin-left: 1em; 
@@ -127,9 +133,32 @@ footer{
     margin-right: 5em;
 }
 
+.dropdown-features{
+    position: relative;
+}
+
 .dropdown-features-content{
     display: none;
+    position: absolute;
+    right: 0em;
+    box-shadow: 0em 0em 1em var(--medium-gray);
+    border-radius: 1em;
+    padding: 1em;
+    height: 10em;
+    background-color: var(--almost-white);
+    /* z-index: 9999; */
 }
+
+.dropdown-features-content a{
+    
+}
+
 .dropdown-company-content{
     display: none;
+}
+
+.dropdown-features:hover .dropdown-features-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
