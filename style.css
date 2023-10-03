@@ -146,15 +146,14 @@ footer{
     padding: 1em;
     height: 10em;
     background-color: var(--almost-white);
-    /* z-index: 9999; */
-}
-
-.dropdown-features-content a{
-    
 }
 
 .dropdown-company-content{
     display: none;
+}
+
+.dropdown-features:hover button img{
+    content: url(./images/icon-arrow-up.svg);
 }
 
 .dropdown-features:hover .dropdown-features-content{
