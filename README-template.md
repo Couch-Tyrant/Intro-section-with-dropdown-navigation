@@ -97,6 +97,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Dropdown menu using CSS](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp) - Used this for making dropdown menu.
 - [Applying CSS styles to all elements inside a DIV](https://stackoverflow.com/questions/15901522/applying-css-styles-to-all-elements-inside-a-div) - To apply all the styles to the elemenrs inside the div.
 - [Image change on hover](https://www.tutorialspoint.com/how-to-change-image-on-hover-with-css) - Helped me in changing image using content(`<image url>`) while hover on the element
+- [Prevent text wrap](<https://css-tricks.com/almanac/properties/w/whitespace/#:~:text=If%20you%20want%20to%20prevent,line%20(in%20the%20code).>) - TIf you want to prevent the text from wrapping, you can apply `white-space: nowrap`;
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**

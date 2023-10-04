@@ -137,6 +137,10 @@ footer{
     position: relative;
 }
 
+.dropdown-company{
+    position: relative;
+}
+
 .dropdown-features-content{
     display: none;
     position: absolute;
@@ -146,10 +150,20 @@ footer{
     padding: 1em;
     height: 10em;
     background-color: var(--almost-white);
+    white-space: nowrap;
 }
 
 .dropdown-company-content{
     display: none;
+    position: absolute;
+    right: 0em;
+    box-shadow: 0em 0em 1em var(--medium-gray);
+    border-radius: 1em;
+    padding: 1em;
+    height: 8em;
+    width: fit-content;
+    background-color: var(--almost-white);
+    white-space: nowrap;
 }
 
 .dropdown-features:active button img{
@@ -158,6 +172,12 @@ footer{
 
 .dropdown-features:hover .dropdown-features-content{
     
+}
+
+.dropdown-company:hover .dropdown-company-content{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
 }
 
 .show {
