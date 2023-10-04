@@ -13,13 +13,13 @@ nav{
 
 .dropdown{
     float: left;
+    position: relative;
 }
 
 button{
     border:none;
     /* text-align: center; */
     text-decoration: none;
-    position: relative;
     /* display: inline-block; */
     /* font-size: inherit; */
     /* font-family: inherit; */
@@ -46,6 +46,11 @@ button:hover{
 }
 
 .dropdown:hover .dropdown-content{
+    
+}
+
+.show{
     display: flex;
     flex-direction: column;
+    right: 0px;
 }

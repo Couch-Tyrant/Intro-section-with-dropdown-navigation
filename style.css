@@ -152,11 +152,15 @@ footer{
     display: none;
 }
 
-.dropdown-features:hover button img{
-    content: url(./images/icon-arrow-up.svg);
+.dropdown-features:active button img{
+    /* content: url(./images/icon-arrow-up.svg); */
 }
 
 .dropdown-features:hover .dropdown-features-content{
+    
+}
+
+.show {
     display: flex;
     flex-direction: column;
     justify-content: space-between;

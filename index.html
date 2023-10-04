@@ -20,11 +20,11 @@
   <nav class="header-nav">
     <div class="page-nav">
       <a href="#" class="logo"><img src="./images/logo.svg" alt="" srcset=""></a>
-      <div class="dropdown-features">
+      <div class="dropdown-features" onclick="showDropdownMenu()">
         <button class="dropdown-features-btn" type="submit">
-          Features <img src="./images/icon-arrow-down.svg" alt="" srcset="">
+          Features <img id="features-image" src="./images/icon-arrow-down.svg" alt="" srcset="">
         </button>
-        <div class="dropdown-features-content">
+        <div id="dropdown-features-content-ID" class="dropdown-features-content">
           <a href="#"><!--<img src="./images/icon-todo.svg" alt="" srcset="">-->Todo List</a>
           <a href="#"><!--<img src="./images/icon-reminders.svg" alt="" srcset="">-->Reminders</a>
           <a href="#"><!--<img src="./images/icon-planning.svg" alt="" srcset="">-->Planning</a>
@@ -79,4 +79,5 @@
   Coded by <a href="#">Your Name Here</a>.
 </div> -->
 </body>
+<script src="./script.js"></script>
 </html>
